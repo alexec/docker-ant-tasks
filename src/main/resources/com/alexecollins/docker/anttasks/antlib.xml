@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<antlib>
+    <taskdef name="validate" classname="com.alexecollins.docker.anttasks.ValidateTask"/>
+    <taskdef name="clean" classname="com.alexecollins.docker.anttasks.CleanTask"/>
+    <taskdef name="build" classname="com.alexecollins.docker.anttasks.BuildTask"/>
+    <taskdef name="start" classname="com.alexecollins.docker.anttasks.StartTask"/>
+    <taskdef name="stop" classname="com.alexecollins.docker.anttasks.StopTask"/>
+    <taskdef name="push" classname="com.alexecollins.docker.anttasks.PushTask"/>
+</antlib>

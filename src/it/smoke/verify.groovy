@@ -1,0 +1,1 @@
+assert new File(basedir, "build/docker/app/Dockerfile").exists()

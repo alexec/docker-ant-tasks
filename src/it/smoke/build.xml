@@ -1,0 +1,13 @@
+<project name="docker-ant-tasks" default="build" xmlns:docker="antlib:com.alexecollins.docker.anttasks">
+    <target name="build">
+        <docker:validate src="src/main/docker" work="build/docker" user="foo"/>
+        <docker:clean/>
+        <docker:build flags="NO_CACHE,REMOVE_INTERMEDIATE_IMAGES,QUIET"/>
+        <docker:start/>
+        <docker:stop/>
+        <!-- requires registry set-up -->
+        <!--
+        <docker:push/>
+        -->
+    </target>
+</project>
