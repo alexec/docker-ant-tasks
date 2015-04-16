@@ -59,7 +59,7 @@
         <dependency>
             <groupId>org.apache.ant</groupId>
             <artifactId>ant</artifactId>
-            <version>1.7.0</version>
+            <version>1.9.4</version>
         </dependency>
         <dependency>
             <groupId>com.alexecollins.docker</groupId>
@@ -70,7 +70,7 @@
             <!-- TODO - ant static bindings -->
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-simple</artifactId>
-            <version>1.6.6</version>
+            <version>1.7.12</version>
         </dependency>
     </dependencies>
 
