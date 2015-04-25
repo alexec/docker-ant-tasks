@@ -64,7 +64,7 @@
         <dependency>
             <groupId>com.alexecollins.docker</groupId>
             <artifactId>docker-java-orchestration-core</artifactId>
-            <version>2.5.0</version>
+            <version>LATEST</version>
         </dependency>
         <dependency>
             <!-- TODO - ant static bindings -->
