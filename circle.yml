@@ -15,7 +15,7 @@ machine:
 dependencies:
  override:
   - mvn versions:use-latest-snapshots -Dinclude='com.alexecollins.docker:*'
-  - mvn install -DskipT ests -s settings.xml
+  - mvn install -DskipTests -s settings.xml
 test:
  override:
   - sudo service mysql stop
